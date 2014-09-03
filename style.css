@@ -1,0 +1,24 @@
+.rows {
+  width: 500px;
+  height: 500px;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+}
+.rows .row {
+  box-sizing: border-box;
+  width: 500px;
+  height: 50px;
+}
+.rows .row .col {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  float: left;
+}
+.snake {
+  background: red;
+}
+.eat {
+  background: green;
+}
